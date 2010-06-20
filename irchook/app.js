@@ -2,9 +2,9 @@ var port = 8009;
 
 var sys = require('sys'),
 	http = require('http'),
-	irc = require('./ircat/bot'),
+	irc = require('../lib/ircat'),
 	config = require('./config'),
-	Mustache = require('./mustache');
+	Mustache = require('../lib/mustache');
 
 
 function GitHub() {
