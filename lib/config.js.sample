@@ -1,0 +1,5 @@
+exports.config = {
+    username: 'githubbot',
+    server: 'irc.freenode.net',
+    port: 6667
+};
